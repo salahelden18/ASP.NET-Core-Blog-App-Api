@@ -1,0 +1,17 @@
+D:\ASP.Net Core\Blog\Blog.Infra\bin\Debug\net7.0\Blog.Infra.deps.json
+D:\ASP.Net Core\Blog\Blog.Infra\bin\Debug\net7.0\Blog.Infra.runtimeconfig.json
+D:\ASP.Net Core\Blog\Blog.Infra\bin\Debug\net7.0\Blog.Infra.dll
+D:\ASP.Net Core\Blog\Blog.Infra\bin\Debug\net7.0\Blog.Infra.pdb
+D:\ASP.Net Core\Blog\Blog.Infra\bin\Debug\net7.0\Blog.Core.dll
+D:\ASP.Net Core\Blog\Blog.Infra\bin\Debug\net7.0\Blog.Core.pdb
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.csproj.AssemblyReference.cache
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.AssemblyInfoInputs.cache
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.AssemblyInfo.cs
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.csproj.CoreCompileInputs.cache
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.csproj.CopyComplete
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.dll
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\refint\Blog.Infra.dll
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.pdb
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\Blog.Infra.genruntimeconfig.cache
+D:\ASP.Net Core\Blog\Blog.Infra\obj\Debug\net7.0\ref\Blog.Infra.dll
