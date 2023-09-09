@@ -1,6 +1,7 @@
 ﻿using Blog.Core.IServices;
 using Blog.Core.Models.Dtos.Tags;
 using Blog.Core.Models.Errors;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,6 +19,7 @@ namespace Blog.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateTag(TagRequestDto tagRequestDto)
         {
             var result = await _tagService.CreateTag(tagRequestDto);
@@ -61,6 +63,7 @@ namespace Blog.API.Controllers
 
         [HttpDelete]
         [Route("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteTag([FromRoute] int id)
         {
             if(id <= 0)
@@ -76,6 +79,7 @@ namespace Blog.API.Controllers
 
         [HttpPatch]
         [Route("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateTag([FromRoute] int id, TagRequestDto tagRequestDto)
         {
             if (id <= 0)

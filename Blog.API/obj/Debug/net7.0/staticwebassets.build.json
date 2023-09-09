@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "BnCi07dmvRRob7X3Xk/UrbAtySAdtTLg3gbQ8PDeREQ=",
+  "Hash": "uMQ584P03+0r1GtEiGt66zYQMQGWLVmDruRX8WL7pjo=",
   "Source": "Blog.API",
   "BasePath": "_content/Blog.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Blog.API\\wwwroot",
+      "Source": "Blog.API",
+      "ContentRoot": "D:\\ASP.Net Core\\Blog\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ASP.Net Core\\Blog\\Blog.API\\wwwroot\\uploads\\5.png.png",
+      "SourceId": "Blog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net Core\\Blog\\Blog.API\\wwwroot\\",
+      "BasePath": "_content/Blog.API",
+      "RelativePath": "uploads/5.png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5.png.png"
+    }
+  ]
 }

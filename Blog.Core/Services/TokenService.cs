@@ -29,8 +29,8 @@ namespace Blog.Core.Services
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // jwt unique id
                 new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-                new Claim(ClaimTypes.NameIdentifier, user.Email),
-                new Claim(ClaimTypes.NameIdentifier, user.FullName),
+                new Claim("email", user.Email),
+                new Claim("fullName", user.FullName),
                 new Claim(ClaimTypes.Role, role),
             };
 

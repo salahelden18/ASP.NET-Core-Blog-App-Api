@@ -26,4 +26,8 @@
     <ProjectReference Include="..\Blog.Infra\Blog.Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
 </Project>

@@ -11,12 +11,13 @@ namespace Blog.Core.Domain.Entities
         public Guid Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public DateTime PublishedAt { get; set; }
+        public DateTime PublishedAt { get; set; } = DateTime.Now;
         public string BlogImage { get; set; }
         // add the navigation props
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
         public virtual ICollection<Tags> Tags { get;}
+        public int AuthorId { get; set; }
         public virtual Author Author { get; set; }
     }
 }

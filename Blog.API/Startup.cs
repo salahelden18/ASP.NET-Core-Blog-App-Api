@@ -15,6 +15,9 @@ namespace Blog.API
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ITagService, TagService>();
+            services.AddScoped<IAuthorService, AuthorService>();
+            services.AddScoped<IBlogPostService, BlogService>();
+            services.AddScoped<CustomApi>();
 
             // repositories
             services.AddScoped<IAccountRepository, AccountRepository>();
@@ -23,6 +26,7 @@ namespace Blog.API
             services.AddScoped<IAuthorRepository, AuthorRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ITagRepository, TagRepository>();
+            services.AddScoped<IBlogPostRepository, BlogPostRepository>();
 
             return services;
         }

@@ -96,3 +96,4 @@ D:\ASP.Net Core\Blog\Blog.API\bin\Debug\net7.0\Serilog.dll
 D:\ASP.Net Core\Blog\Blog.API\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 D:\ASP.Net Core\Blog\Blog.API\bin\Debug\net7.0\AutoMapper.dll
 D:\ASP.Net Core\Blog\Blog.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ASP.Net Core\Blog\Blog.API\bin\Debug\net7.0\Blog.API.staticwebassets.runtime.json

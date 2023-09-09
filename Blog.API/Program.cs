@@ -25,6 +25,8 @@ builder.Services.AddLogging(builder => builder.AddConsole());
 
 builder.Services.AddServices();
 
+builder.Services.AddHttpContextAccessor();
+ 
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
